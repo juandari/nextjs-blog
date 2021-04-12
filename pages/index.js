@@ -45,10 +45,14 @@ export default function Home({ allPostsData }) {
         </ul>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Portfolio</h2>
+        <h2 className={utilStyles.headingLg}>My Portfolio</h2>
         <Link href={`https://sad-noether-770f6f.netlify.app/`}>
           <a>Meme Generator</a>
         </Link>
+        <br />
+        <small className={utilStyles.lightText}>
+          Tech Stack: HTML, CSS, JavaScript
+        </small>
       </section>
     </Layout>
   )
